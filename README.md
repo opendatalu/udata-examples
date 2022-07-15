@@ -1,6 +1,6 @@
 # Examples of use of the udata API in Python
 
-Data.public.lu relies on the udata platform and provides an API to access to most of the features of the platform.
+[Data.public.lu](https://data.public.lu) relies on the [udata platform](https://github.com/opendatateam/udata) and provides an [API](https://data.public.lu/fr/docapi/) to access to most of the features of the platform.
 
 This repository contains a few examples of usage of this API based on common use cases:
 
