@@ -4,8 +4,8 @@
 
 This repository contains a few examples of usage of this API based on common use cases:
 
-- [get the latest resource from a dataset](getLatestResourceFromDataset.ipynb)
-- [add a resource to a Dataset](addResourceToDataset.ipynb)
+- [get the latest resource from a dataset (notebook)](getLatestResourceFromDataset.ipynb)
+- [add a resource to a Dataset (notebook)](addResourceToDataset.ipynb)
 - [download all files from a Dataset](downloadAllFilesFromDataset.py)
 
 # Installation
@@ -14,6 +14,7 @@ This code requires the Python environment. All the dependencies can be installed
 ```
 pip install -r requirements.txt
 ```
+The notebook files require [Jupyter](https://jupyter.org/) or any compatible platform.
 
 # License
 
