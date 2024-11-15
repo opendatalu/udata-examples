@@ -1,7 +1,12 @@
+# This script will download all files from a given dataset on data.public.lu
+# It takes as input the id of a dataset and stores the resulting files on the local filesystem
+
 import requests, urllib.parse, os.path
 API = 'https://data.public.lu/api/1'
 
-# the id of the Dataset you want to get
+# Please fill in here the id of the Dataset you want to get
+# The id of the dataset can be found at the end of the URL of the dataset
+# Example: https://data.public.lu/fr/datasets/cour-de-cassation/ -> cour-de-cassation
 dataset = 'cour-de-cassation'
 
 # get all metadata from the dataset
